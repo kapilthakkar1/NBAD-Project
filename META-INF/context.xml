@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/assignment1">
+    <!-- 
+    <Resource name="jdbc/nbad2" 
+              auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true"
+              maxActive="100" maxIdle="30" maxWait="10000" 
+              password="HpWxjnWS3H-H" removeAbandoned="true" removeAbandonedTimeout="60"
+              type="javax.sql.DataSource" url="jdbc:mysql://127.12.0.130:3306/nbad2" 
+              username="adminL2IrgFN"/>
+    -->
+    
+
+ <Resource name="jdbc/nbad2" auth="Container" type="javax.sql.DataSource"
+               maxActive="50" maxIdle="30" maxWait="10000"
+               username="adminL2IrgFN" password="HpWxjnWS3H-H" 
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://127.12.0.130:3306/nbad2"/>
+
+</Context>
+

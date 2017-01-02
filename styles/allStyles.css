@@ -1,0 +1,141 @@
+.header1{
+    margin-top: 0px;
+    background-color: #3B5998;
+    height: 60px;
+    width: auto;
+    //color: white;
+
+}
+
+.footer{
+
+    clear :both;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #990000;
+    color: white;
+    text-align: center;
+    font-family:  Calibri,Tahoma,Verdana,sans-serif;
+}
+
+.headerTitle{
+    margin-left: 2%;
+    color: white;
+    font-family:  Calibri,Tahoma,Verdana,sans-serif;
+    font-size: 16pt;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.homeImg{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+.headerLinks{
+
+    float: right;
+    color: yellow;
+    margin-right: 2.5%;
+    font-family:  Calibri,Tahoma,Verdana,sans-serif;
+    font-size: 12pt;
+}
+
+.logoutLink{
+
+    float: right;
+    color: white;
+    margin-right: 2.5%;
+    font-family:  Calibri,Tahoma,Verdana,sans-serif;
+    font-size: 12pt;
+    background: none;
+    border: none;
+    cursor: pointer;    
+}
+
+.loginbox{
+    font-family:  Calibri,Tahoma,Verdana,sans-serif;
+    font-size: 14pt;
+    //position: fixed;
+  margin-top: 5%;
+margin-left: 35%;
+}
+
+
+.mainpagesection {
+    width:auto;
+    float:left;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family:  Calibri,Tahoma,Verdana,sans-serif;
+}
+
+.howpagesection {
+    width:50%;
+    float:left;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family:  Calibri,Tahoma,Verdana,sans-serif;
+}
+
+.nav {
+    margin-top: 10px;
+    line-height:30px;
+    background-color:#CEF6F5;
+    height:auto;
+    width:auto;
+    float:left;
+    padding:5px;	      
+    border: 2px solid #086A87;
+    margin-bottom: 10px;
+    font-family:  Calibri,Tahoma,Verdana,sans-serif;
+    border-radius: 10px;
+}
+
+.menuItemStyle{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-size: 14pt;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.TFtable{
+		width:100%; 
+		border-collapse:collapse; 
+}
+
+.TFtable th{ 
+	padding:7px; border:white 1px solid;
+        background: black;
+        color: white;
+}
+
+
+.TFtable td{ 
+	padding:7px; border:white 1px solid;
+}
+	/* provide some minimal visual accomodation for IE8 and below */
+	.TFtable tr{
+		background: #b8d1f3;
+	}
+	/*  Define the background color for all the ODD background rows  */
+	.TFtable tr:nth-child(odd){ 
+		background: #E6E6E6;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	.TFtable tr:nth-child(even){
+		background: #A4A4A4;
+	}
